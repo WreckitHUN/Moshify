@@ -85,7 +85,8 @@ a{
 }
 
 .link-arrow::after{
-    content: '-->';
+    font-weight: bold;
+    content: '\279C';
     margin-left: 5px;
     transition: margin 0.2s;
 }
@@ -93,6 +94,8 @@ a{
 .link-arrow:hover::after{
     margin-left: 10px;
 }
+
+
 
 /* Laptop and Desktop */
 @media screen and (min-width: 1024px) {
