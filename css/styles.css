@@ -340,6 +340,10 @@ a{
     color: white;
 }
 
+.card--primary .badge--primary{
+    background: #126de4;
+}
+
 .card--secondary .card__header{
     background: var(--color-secondary);
     color: white;
@@ -647,7 +651,6 @@ a{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 1rem;
 }
 
 /* Navigation bar */ 
@@ -772,6 +775,30 @@ a{
     .block-domain__prices{
         display: flex;
         justify-content: space-between;
+    }
+    
+}
+
+/* Plan block */
+
+.block-plans .grid{
+    gap: 4rem;
+}
+
+.block-plans .card{
+    max-width: 500px;
+    margin: 0 auto;
+    transition: all 0.3s ease-out;
+}
+
+@media screen and (min-width:1024px) {
+
+    .block-plans .plan--popular{
+        transform: scale(1.1);
+    }
+
+    .block-plans .card:hover{
+        transform: scale(1.02);
     }
     
 }
