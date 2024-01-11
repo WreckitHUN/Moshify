@@ -288,10 +288,10 @@ a{
     border-radius: var(--border-radius);
     border: 1px solid var(--color-border);
     color: var(--color-headings);
-    font-size: 2rem;
+    font-size: 1.4rem;
     outline: 0;
     padding: 1.5rem 3rem;
-    
+    transition: font-size 0.3s;
 }
 
 ::placeholder{
@@ -316,9 +316,9 @@ a{
 }
 
 /* Laptop and Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .input{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
 }
