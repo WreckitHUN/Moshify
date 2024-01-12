@@ -18,6 +18,11 @@
 }
 
 /* Topography */
+::selection{
+    background: var(--color-primary);
+    color: white;
+}
+
 html{
     /* 62.5% of 16px is 10px */
     font-size: 62.5%;
