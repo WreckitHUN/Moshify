@@ -296,7 +296,7 @@ a{
     border-radius: var(--border-radius);
     border: 1px solid var(--color-border);
     color: var(--color-headings);
-    font-size: 1.4rem;
+    font-size: 1rem;
     outline: 0;
     padding: 1.5rem 3rem;
     transition: font-size 0.3s;
@@ -322,6 +322,15 @@ a{
 .input-group .btn{
     margin: 4px;
 }
+
+/* Mobile L */
+@media screen and (min-width: 425px) {
+    .input{
+        font-size: 1.4rem;
+    }
+}
+
+
 
 /* Laptop and Desktop */
 @media screen and (min-width: 768px) {
